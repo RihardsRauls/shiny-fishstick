@@ -7,6 +7,8 @@ def Luhn_checks_my_card(card_number):
     #Kaut kapēc man master kartei jāmaina skaits... savadāk neiet... es nezinu kapēc lmao
     if len(card_number) == 15:
         x = 1
+    elif len(card_number) == 13:
+        x = 1
     else:
         x = 0
 
